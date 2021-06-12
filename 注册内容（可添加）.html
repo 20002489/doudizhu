@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>注册</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="caa/register.css">
+  </head>
+  <body>
+  	 <div class="w">
+  	 	<header>
+  	 		<div class="logo">
+  	 			<a href="index.html"><img src="images/logo.png" alt=""></a>
+  	 		</div>
+  	 	</header>
+  	 	<div class="registerarea">
+  	 		<h3>注册新用户
+  	 		       <div class="login">我有账号，去<a href="登陆.html">登陆</a></div>
+  	 		   </h3>
+               <div class="reg_form">
+                    <form  action="数据.php"  method="get">
+                      用户名：<input  type="text" maxlength="8"><br>
+                      密码：<input  type="password" maxlength="9"><br>
+                      头像：<input type="file"><br>
+                      性别：<label for="sex">男 </label><input  type="radio" name="sex" value="男" id="sex"> <label for="sex">  女 </label><input type="radio" name="sex" value="女" id="sex"><br>
+                      偏好：<label for="hobby">电子产品</label> <input type="checkbox" name="hobby" value="电子产品" id="hobby">  <label for="hobby"> 服装 </label><input type="checkbox" name="hobby" value="服装" id="hobby">  <label for="hobby"> 零食</label> <input type="checkbox" name="hobby" value="零食" id="hobby">   <label for="hobby">饰品</label> <input type="checkbox" name="hobby" value="饰品" id="hobby"><br>
+                      手机号：<input type="text" maxlength="11"><input type="button" value="发送验证码"><br>
+                      验证码：<input type="text" maxlength="6"><br>
+                      同意用户协议 <input type="radio" checked="checked"><br>
+                      <input type="submit" value="注册">
+                      <input type="reset" value="重新设置">
+              </div>
+      </div>
+      <footer>底部区域</footer>
+     </div>
+     
+  </html>
